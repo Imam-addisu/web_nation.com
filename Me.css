@@ -1,0 +1,168 @@
+body {
+    /* font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    transition: background 0.3s, color 0.3s;
+    position: relative;
+
+    background: black; */
+    color: white;
+}
+
+/* header {
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: left;
+    z-index: 100;
+} */
+ nav {
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: left;
+    
+ }
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    font-size: 22px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+form input, form textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+/* 
+to be uncomment when buttons are uncomment inthe html section,
+ 
+button {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer; 
+} */
+
+.toggle-btn {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    background: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.typing::after {
+    content: '|';
+    animation: blink 1s infinite;
+}
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+body, h4, p {
+    text-align: center;
+}
+h4 {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+p {
+    margin: 40px;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    padding: 50px;
+    background: #222;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+form button {
+    background: teal;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background: #008080;
+}
+
+#form-message {
+    margin-top: 10px;
+    color: #4CAF50;
+}
+
+/* Social Media Icons */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-icon {
+    font-size: 2rem;
+    color: white;
+    margin: 10px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: teal;
+}
+
+.footer {
+    background-color: rgba(51, 51, 51, 0.8);
+}
+.card{
+    color: white;
+}
